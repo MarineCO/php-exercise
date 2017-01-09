@@ -13,7 +13,7 @@
 		);
 
 	foreach ($hdf as $key => $value) {
-		echo '<p> Département du ' . $key . ' = ' . $value . '</p>';
+		echo '<p> Le département ' . $value . ' a le numéro ' . $key . '</p>';
 	}
 
 ?>
