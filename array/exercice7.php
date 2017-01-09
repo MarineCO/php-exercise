@@ -12,7 +12,7 @@
 
 		);
 
-	$hdf[51] = 'Marne';
+	echo '<p>' . ' ' . $hdf[51] = 'Marne' . ' ' . '</p>';
 
 	var_dump($hdf);
 ?>
