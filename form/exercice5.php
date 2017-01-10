@@ -6,7 +6,7 @@
 </head>
 <body>
 	
-	<h1>Exercice 5</h1>
+	<h1>Exercice 5 et 6</h1>
 
 <?php
 
