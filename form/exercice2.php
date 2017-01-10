@@ -8,13 +8,13 @@
 	
 <h1>Exercice 2</h1>
 
-<form method="POST" action="user.php">
+<form method="POST" action="exercice4.php">
 	
-	<label for="name">Nom</label>
-	<input id="name" type="text"/>
+	<label for="lastname">Nom</label>
+	<input id="lasrname" name="lastname" type="text"/>
 
 	<label for="firstname">Prénom</label>
-	<input id ="firstname" type="text"/>
+	<input id ="firstname" name="firstname" type="text"/>
 
 	<input type="submit" value="Valider"/>
 
