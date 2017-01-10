@@ -6,19 +6,19 @@
 </head>
 <body>
 	
-<h1>Exercice 2</h1>
+	<h1>Exercice 2</h1>
 
-<form method="POST" action="exercice4.php">
-	
-	<label for="lastname">Nom</label>
-	<input id="lasrname" name="lastname" type="text"/>
+	<form method="POST" action="exercice4.php">
+		
+		<label for="lastname">Nom</label>
+		<input id="lasrname" name="lastname" type="text"/>
 
-	<label for="firstname">Prénom</label>
-	<input id ="firstname" name="firstname" type="text"/>
+		<label for="firstname">Prénom</label>
+		<input id ="firstname" name="firstname" type="text"/>
 
-	<input type="submit" value="Valider"/>
+		<input type="submit" value="Valider"/>
 
-</form>
+	</form>
 
 </body>
 </html>
