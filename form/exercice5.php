@@ -15,8 +15,8 @@
 ?>
 
 <?php if (empty($lastname) && empty($firstname)) : ?>
-
-		<form method="POST" action="exercice7.php">
+	
+		<form method="POST" action="exercice5.php">
 			<select name="civilite" id="civilite">
 				<option value="Mr">Mr</option>
 				<option value="Mme">Mme</option>
@@ -32,7 +32,7 @@
 <?php else : ?>
 
 	 <p><?= $civilite. ' ' .$lastname. ' ' .$firstname ?></p>
-	 
+
 <?php endif; ?>
 
 
