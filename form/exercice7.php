@@ -6,7 +6,7 @@
 </head>
 <body>
 	
-	<h1>Exercice 7</h1>
+	<h1>Exercice 7 et 8</h1>
 
 <?php	
 	$lastname = $_POST['lastname'];
@@ -30,11 +30,26 @@
 			<input type="submit" value="Valider"/>
 		</form>
 
-<?php else : ?>
-
-	 <p><?= $civilite. ' ' .$lastname. ' ' .$firstname. ' ' .$file; ?></p>
+<?php elseif (isset($lastname) && isset($firstname)) :?>
+	
+	 <p><?= $civilite. ' ' .$lastname. ' ' .$firstname. ' ' .$file ?></p>
 
 <?php endif; ?>
+
+<?php 
+	
+	$extensionValid = 'pdf';
+	$extension = pathinfo($file, PATHINFO_EXTENSION);
+	var_dump($extension);
+
+	if ($extension === $extensionValid) {
+		echo 'Ce fichier est bien en pdf';
+
+	} else {
+		echo 'Ce fichier n\'est pas en pdf';
+	}
+
+?>
 
 </body>
 </html>
