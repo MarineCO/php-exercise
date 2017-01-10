@@ -25,7 +25,7 @@
 			<input id="lastname" name="lastname" type="text"/>
 			<label for="firstname">Prénom</label>
 			<input id="firstname" name="firstname" type="text"/>
-			<input id="file" name="file" type="file"/>
+			
 			<input type="submit" value="Valider"/>
 		</form>
 
@@ -34,10 +34,6 @@
 	 <p><?= $civilite. ' ' .$lastname. ' ' .$firstname ?></p>
 
 <?php endif; ?>
-
-
-
-
 
 </body>
 </html>
