@@ -9,10 +9,10 @@
 	<h1>Exercice 5</h1>
 
 	<form method="POST" action="exercice5.php">
-		<label for="login">Nouvel identifiant</label>
-		<input id="login" name="login" type="text"/>
-		<label for="password">Nouveau de mot de passe</label>
-		<input id="password" name="password" type="text"/>
+		<label for="newLogin">Nouvel identifiant</label>
+		<input id="newLogin" name="newLogin" type="text"/>
+		<label for="newPassword">Nouveau mot de passe</label>
+		<input id="newPassword" name="newPassword" type="text"/>
 
 		<input type="submit" value="Valider"/>
 	</form>
