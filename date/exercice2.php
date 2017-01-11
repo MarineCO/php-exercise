@@ -8,7 +8,7 @@
 	
 	<h1>Exercice 2</h1>
 
- <p>Date du jour au format jj-mm-aa = <?= $today = date("j-m-y")?></p>
+ 	<p>Date du jour au format jj-mm-aa = <?= $today = date("j-m-y")?></p>
 
 </body>
 </html>
