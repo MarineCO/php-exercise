@@ -1,12 +1,12 @@
 <?php 
-	session_start();
+session_start();
 
-	$login = $_POST['login'];
-	var_dump($login);
-	$password = $_POST['password'];
+$login = $_POST['login'];
+var_dump($login);
+$password = $_POST['password'];
 
-	setcookie('login', $login, time() + 24*3600, null, null, false, true);
-	setcookie('password', $password, time() + 24*3600, null, null, false, true);
+setcookie('login', $login, time() + 24*3600, null, null, false, true);
+setcookie('password', $password, time() + 24*3600, null, null, false, true);
 
 ?><!DOCTYPE html>
 <html lang="en">
@@ -23,6 +23,8 @@
 
 	<p>Mon identifiant est <?= $_COOKIE['login']; ?></p>
 	<p>Mon mot de passe est <?= $_COOKIE['password']; ?></p>
+
+	<a href="exercice5bis.php">Vers exercice 5</a>
 
 </body>
 </html>
