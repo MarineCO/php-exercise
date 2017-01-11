@@ -6,7 +6,7 @@
 </head>
 <body>
 	
-	<h1>Exercice 7 et 8</h1>
+	<h1>Exercices 7 et 8</h1>
 
 <?php	
 	$lastname = $_POST['lastname'];
